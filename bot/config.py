@@ -1,3 +1,4 @@
+
 #    This file is part of the Compressor distribution.
 #    Copyright (c) 2021 Danish_00
 #
@@ -18,7 +19,6 @@ from decouple import config
 try:
     APP_ID = config("28713982", default=6, cast=int)
     API_HASH = config("237e15f7c006b10b4fa7c46fee7a5377", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("6831428968:AAEZGxK5wmEKVwNV6ArPOQlaGDGuCCct3i0")
     DEV = 1322549723
     OWNER = config("7195990500")
     FFMPEG = config(
